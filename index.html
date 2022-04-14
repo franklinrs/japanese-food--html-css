@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin Ramírez - Proyecto Final</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="flex-0">
+        <a href="#"><img src="assets/logo.png" alt="logo" class="logo flex-0-item"></a>
+        <nav class="flex-0-item">
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Promo</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#"><img src="assets/search.png" alt="search" class="search flex-0-item"></a>
+        <img src="assets/burguer-menu-icon.png" alt="menu" class="hamburguer-menu-icon" id="hamburguer-menu">
+    </header>
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Promo</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section class="section-1 flex-1" >
+            <h1 class="flex-1-item">Title Here</h1>
+            <p class="flex-1-item">Lorem ipsum dolor sit amet, consectetur <br>
+               adipiscing elit, sed do eiusmod tempor <br>
+               incididunt ut labore et dolore magna aliqua.
+            </p>
+            <img src="assets/background.jpg" alt="background">
+            <button class="btn-order flex-1-item">
+                ORDER NOW
+            </button>
+        </section>
+        <section class="blue-section flex-2">
+            <h2 class="flex-2-item">Popular Menu</h2>
+            <p class="flex-2-item flex-2-description">Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, <br> sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="flex-2-item flex-3 popular-menu-items">
+                <li class="flex-3-item flex-2">
+                    <img src="assets/menu-1.jpg" alt="sushi" class="flex-2-item menu-photo">
+                    <h3 class="flex-2-item">Title Here</h3>
+                    <p class="flex-2-item">Lorem ipsum dolor sit amet, <br> consectetur 
+                        adipiscing elit</p>
+                </li>
+                <li class="flex-3-item flex-2">
+                    <img src="assets/menu-2.jpg" alt="ramen" class="flex-2-item menu-photo">
+                    <h3 class="flex-2-item">Title Here</h3>
+                    <p class="flex-2-item">Lorem ipsum dolor sit amet, <br> consectetur 
+                        adipiscing elit</p>
+                </li>
+                <li class="flex-3-item flex-2">
+                    <img src="assets/menu-3.jpg" alt="tofu" class="flex-2-item menu-photo">
+                    <h3 class="flex-2-item">Title Here</h3>
+                    <p class="flex-2-item">Lorem ipsum dolor sit amet, <br> consectetur 
+                        adipiscing elit</p>
+                </li>
+            </ul>
+        </section>
+        <section class="yellow-section flex-3">
+            <div class="flex-3-item">
+                <img src="assets/poke.jpg" alt="poke bowl" class="side-picture">
+            </div>
+            <aside class="flex-3-item aside">
+                <h2>Title Here</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn-order">ORDER NOW</button>
+            </aside>
+        </section>
+        <section class="blue-section flex-2">
+            <h2 class="flex-2-item">Statistics</h2>
+            <p class="flex-2-item flex-2-description">Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, <br>sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="flex-2-item flex-3 statistics-item">
+                <li class="flex3-item circle">
+                    123 <br>
+                    STORE
+                </li>
+                <li class="flex-3-item circle">
+                    100 <br>
+                    MENU
+                </li>
+                <li class="flex-3-item circle">
+                    200 <br>
+                    CHEF
+                </li>
+            </ul>
+        </section>
+        <section class="yellow-section flex-3">
+            <aside class="aside flex-3-item">
+                <h2>Title Here</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn-order">ORDER NOW</button>
+            </aside>
+            <div class="flex-3-item">
+                <img src="assets/fried-ice-cream.png" alt="fried ice cream" class="side-picture">
+            </div>
+        </section>
+        <section class="blue-section flex-2">
+            <img src="assets/gordon.png" alt="chef" class="flex-2-item chef">
+            <blockquote class="flex-2-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+                laboris nisi ut aliquip ex ea commodo consequat. 
+            </blockquote>
+            <figcaption class="flex-2-item">-Gordon Ramsay</figcaption>
+        </section>
+        <section class="yellow-section flex-2">
+            <h2 class="flex-2-item">Title Here</h2>
+            <p class="flex-2-item flex-2-description" >Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, <br> sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <form action="#">
+                <fieldset class="flex-2-item flex-1">
+                <label for="name">Full name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <label for="id">ID</label>
+                <input type="text" id="ID">
+                <label for="country">Nationality</label>
+                <input type="text" id="nationality">
+                <input type="submit" class="btn-order" id="submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="flex-4">
+        <aside class="flex-4-item flex-5">
+            <h4 class="flex-5-item">Title Here</h4>
+            <p class="flex-5-item">Lorem ipsum dolor sit amet, consectetur <br>
+                adipiscing elit, sed do eiusmod tempor <br>
+                incididunt ut labore et dolore magna aliqua, <br>
+                consectetur adipiscing elit.
+            </p>
+            <ul class="social-networks-icons flex-5-item">
+                <li class="social-icon"><img src="assets/social-1.png" alt="social"></li>
+                <li class="social-icon"><img src="assets/social-2.png" alt="social"></li>
+                <li class="social-icon"><img src="assets/social-3.png" alt="social"></li>
+                <li class="social-icon"><img src="assets/social-4.png" alt="social"></li>
+            </ul>
+        </aside>
+        <div class="flex-4-item flex-6">
+            <ul class="flex-6-item links">
+                <li><h4>About</h4></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Brand Guidelines</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <ul class="flex-6-item links">
+                <li><h4>Services</h4></li>
+                <li><a href="#">How to Order</a></li>
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Payment Method</a></li>
+            </ul>
+            <ul class="flex-6-item links">
+                <li><h4>Other</h4></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>   
+    </footer>
+</body>
+
+<script src="js/script.js"></script>
+</html>
